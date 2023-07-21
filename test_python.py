@@ -224,7 +224,7 @@ for row in transposed_matrix:
 # Problem 10
 
 list_input = input(
-    "PROBLEM 10.  Introduceți elementele listei sortate separate prin spațiu: ")
+    "PROBLEM 10.  Introduceți numerele listei sortate separate prin spațiu: ")
 list = [int(num) for num in list_input.split()]
 
 target_num = int(input("Target: "))
